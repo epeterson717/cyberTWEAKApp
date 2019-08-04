@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Listemployees">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/main_btn"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Main Options"
+            android:textColor="@android:color/background_light" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/lion" />
+
+        <Button
+            android:id="@+id/browser_btn"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Browser"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website List"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:dividerHeight="1dp"
+        android:padding="10dp"></ListView>
+
+
+</LinearLayout>

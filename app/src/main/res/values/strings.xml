@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ThirstyLionsBrowser</string>
+    <string name="title_activity_select_string">SelectString</string>
+    <string name="customize_user_agent_string">Customize User Agent String</string>
+    <string name="go">Go</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="submit_btn">Submit</string>
+    <string name="reset_btn">Reset to Default</string>
+
+
+    <string-array name="frequency">
+        <item>Extremely High</item>
+        <item>Above Average</item>
+        <item>Average</item>
+        <item>Below Average</item>
+        <item>Extremely Low</item>
+    </string-array>
+
+    <string-array name="strings">
+        <item>Chrome on Android</item>
+        <item>Safari on iPhone</item>
+        <item>Chrome on Windows</item>
+        <item>Internet Explorer on Windows</item>
+        <item>Safari on Mac</item>
+        <item>Firefox on Linux</item>
+    </string-array>
+
+
+</resources>
