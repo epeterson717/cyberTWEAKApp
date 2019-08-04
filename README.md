@@ -1,14 +1,8 @@
 # Thirsty Lions Web Browser App
 
 ----------------------------------------------------------------
-
-This Android App supports Carnegie Mellon University research paper,
-Draining the Watering-hole: Thwarting Social Engineering Attacks
-authored by Ryan Shi, Brian Hay, Aaron Ferber, and Fei Fang.
-
-
-
- ----------------------------------------------------------------
+Browser mobile app to change User Agent String of user on desired list of websites.
+----------------------------------------------------------------
 References:
 
  Code for Browser Activity modified from "simple_web_browser_app"
